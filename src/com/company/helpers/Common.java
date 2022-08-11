@@ -46,7 +46,7 @@ public class Common {
     }
 
     public static void writeListToOutputFile(ArrayList<String> listToFile) throws IOException {
-        FileWriter writer = new FileWriter("D:\\trash\\output.txt");
+        FileWriter writer = new FileWriter("output.txt");
         for(String str: listToFile) {
             writer.write(str + System.lineSeparator());
         }
